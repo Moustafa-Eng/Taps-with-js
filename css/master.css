@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0%;
+}
+.tab {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.tab button {
+    
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: currentColor;
+    color:#feeb13;
+}
+.tab button:hover {
+    background-color: rgb(5, 5, 5);
+}
+.tab button.active {
+    background-color: rgb(26, 25, 25);
+}
+.tabcontent {
+    display: none;
+    
+    border: 1px solid #ccc;
+
+    background-color: black;
+    color: #feeb13;
+}
+div p{
+    font-size:20px;
+    padding-left: 10px;
+}
+div h3{
+    padding-left: 10px;
+    color: #feeb13;
+}
